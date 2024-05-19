@@ -656,7 +656,7 @@ ol {
 	color: #ffffff;
 	position: absolute;
 	right: 30px;
-	bottom: 26px;
+	bottom: 16px;
 }
 
 /*---------------------
@@ -1168,7 +1168,7 @@ ol {
 
 .breadcrumb-text .bt-option span {
 	font-size: 18px;
-	color: #f36100;
+	color: #5b68f8;
 	font-weight: 700;
 }
 
@@ -1193,7 +1193,7 @@ ol {
 	display: inline-block;
 	height: 70px;
 	width: 70px;
-	background: #f36100;
+	background: #5b68f8;
 	border-radius: 50%;
 	line-height: 70px;
 	text-align: center;
@@ -1527,7 +1527,7 @@ ol {
 .class-timetable table thead tr th {
 	font-size: 14px;
 	color: #ffffff;
-	background: #f36100;
+	background: #5b68f8;
 	border-right: 1px solid #363636;
 	padding: 15px 0;
 	font-weight: 400;
@@ -1540,7 +1540,7 @@ ol {
 
 .class-timetable table tbody tr td.class-time {
 	font-size: 12px;
-	color: #f36100;
+	color: #ffffff;
 	background: #000000;
 	border: 1px solid #363636;
 }
@@ -1556,7 +1556,7 @@ ol {
 }
 
 .class-timetable table tbody tr td.hover-bg:hover {
-	background: #f36100;
+	background: #4d4e5e;
 }
 
 .class-timetable table tbody tr td.blank-td {
@@ -1715,7 +1715,7 @@ ol {
 }
 
 .sidebar-option .so-categories ul li:hover a {
-	color: #f36100;
+	color: #5b68f8;
 }
 
 .sidebar-option .so-categories ul li:hover a span {
@@ -1952,7 +1952,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 15px 0;
-	background: #f36100;
+	background: #5b68f8;
 }
 
 /*---------------------
@@ -2452,7 +2452,7 @@ ol {
 	width: 100%;
 	border: none;
 	padding: 14px 0 12px;
-	background: #f36100;
+	background: #5b68f8;
 }
 
 /*---------------------
@@ -2475,7 +2475,7 @@ ol {
 
 .contact-widget .cw-text i {
 	font-size: 30px;
-	color: #f36100;
+	color: #5b68f8;
 	display: inline-block;
 	height: 65px;
 	width: 65px;
@@ -2590,7 +2590,7 @@ ol {
 	color: #ffffffb3;
 	height: 46px;
 	width: 100%;
-	background: #f36100;
+	background: #5b68f8;
 	border: none;
 	padding-left: 20px;
 }
@@ -2646,7 +2646,7 @@ ol {
 }
 
 .text-404 a i {
-	color: #f36100;
+	color: #5b68f8;
 	margin-right: 5px;
 }
 
@@ -2758,12 +2758,12 @@ ol {
 	.canvas-open {
 		position: absolute;
 		right: 40px;
-		top: 61px;
+		top: 20px;
 		font-size: 22px;
 		width: 30px;
 		height: 30px;
-		color: #ffffff;
-		border: 1px solid #ffffff;
+		color: #0003c0;
+		border: 1px solid #005c99;
 		border-radius: 2px;
 		line-height: 29px;
 		text-align: center;
@@ -2806,27 +2806,8 @@ ol {
 		top: 20px;
 		cursor: pointer;
 	}
-	.offcanvas-menu-wrapper .canvas-search {
-		font-size: 18px;
-		text-align: center;
-		margin-bottom: 20px;
-		cursor: pointer;
-	}
 	.offcanvas-menu-wrapper .canvas-menu {
 		display: none;
-	}
-	.offcanvas-menu-wrapper .canvas-social {
-		text-align: center;
-		padding-top: 20px;
-	}
-	.offcanvas-menu-wrapper .canvas-social a {
-		display: inline-block;
-		font-size: 16px;
-		color: #363636;
-		margin-right: 6px;
-	}
-	.offcanvas-menu-wrapper .canvas-social a:last-child {
-		margin-right: 0;
 	}
 	.offcanvas-menu-wrapper .slicknav_btn {
 		display: none;
@@ -2854,12 +2835,12 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #5b68f8;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #5b68f8;
 	}
 	.nav-menu {
 		display: none;
@@ -2904,12 +2885,12 @@ ol {
 	.canvas-open {
 		position: absolute;
 		right: 40px;
-		top: 61px;
+		top: 30px;
 		font-size: 22px;
 		width: 30px;
 		height: 30px;
-		color: #ffffff;
-		border: 1px solid #ffffff;
+		color: #0003c0;
+		border: 1px solid #005c99;
 		border-radius: 2px;
 		line-height: 29px;
 		text-align: center;
@@ -3000,15 +2981,15 @@ ol {
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #5b68f8;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav .slicknav_row:hover a {
-		color: #f36100;
+		color: #5b68f8;
 	}
 	.offcanvas-menu-wrapper .slicknav_nav a:hover {
 		border-radius: 0;
 		background: transparent;
-		color: #f36100;
+		color: #5b68f8;
 	}
 	.nav-menu {
 		display: none;

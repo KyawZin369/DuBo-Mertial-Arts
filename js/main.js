@@ -137,19 +137,16 @@
         var tsfilter = $(this).data('tsfilter');
         $('.table-controls ul li').removeClass('active');
         $(this).addClass('active');
-
+    
         if (tsfilter == 'all') {
             $('.class-timetable').removeClass('filtering');
             $('.ts-meta').removeClass('show');
+            $('.ts-meta').addClass('show');
         } else {
             $('.class-timetable').addClass('filtering');
+            $('.ts-meta').removeClass('show');
+            $('.ts-meta[data-tsmeta="' + tsfilter + '"]').addClass('show');
         }
-        $('.ts-meta').each(function () {
-            $(this).removeClass('show');
-            if ($(this).data('tsmeta') == tsfilter) {
-                $(this).addClass('show');
-            }
-        });
     });
 
 
