@@ -725,6 +725,87 @@ ol {
 	background: #5b68f8;
 }
 
+/*---------------------
+  Facilities Section
+-----------------------*/
+
+.facilities-section {
+	background: #151515;
+	padding-bottom: 80px;
+}
+
+.facilities-section .section-title {
+	margin-bottom: 35px;
+}
+
+.facility-item {
+	overflow: hidden;
+	margin-bottom: 30px;
+}
+
+.facility-item .fi-pic img {
+	min-width: 100%;
+}
+
+.facility-item .fi-text {
+	background: #0a0a0a;
+	position: relative;
+	padding: 10px 30px 26px 30px;
+	z-index: 1;
+}
+
+.facility-item .fi-text:after {
+	position: absolute;
+	left: -5px;
+	top: -44px;
+	height: 100px;
+	width: 600px;
+	border-top: 4px solid #464646;
+	background: #0a0a0a;
+	content: "";
+	-webkit-transform: rotate(-5deg);
+	-ms-transform: rotate(-5deg);
+	transform: rotate(-5deg);
+	z-index: -1;
+}
+
+.facility-item .fi-text span {
+	color: #5b68f8;
+	font-size: 12px;
+	text-transform: uppercase;
+	font-weight: 700;
+}
+
+.facility-item .fi-text h5 {
+	font-size: 20px;
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 4px;
+}
+
+.facility-item .fi-text h4 {
+	font-size: 26px;
+	color: #ffffff;
+	font-weight: 600;
+	text-transform: uppercase;
+	margin-top: 4px;
+}
+
+.facility-item .fi-text a {
+	display: inline-block;
+	width: 46px;
+	height: 46px;
+	background: rgba(255, 255, 255, 0.1);
+	line-height: 46px;
+	text-align: center;
+	font-size: 24px;
+	color: #ffffff;
+	position: absolute;
+	right: 30px;
+	bottom: 16px;
+}
+
 
 /*---------------------
   Banner Section
@@ -941,16 +1022,16 @@ ol {
 }
 
 .instructor-item .ii-pic img {
-    width: 360px;
-    height: 240px;
-    min-width: 100%;
+	min-width: 100%;
+	min-height: 100%;
+    object-fit: cover;
+	border: 1px solid #363636;
 }
 
 .instructor-item .ii-text {
     border: 1px solid #363636;
     overflow: hidden;
-    height: 240px;
-    padding: 32px 30px 0 30px;
+    padding: 32px 30px 20px 40px;
 }
 
 .instructor-item .ii-text h5 {
