@@ -36,6 +36,18 @@
         gutter: 10
     });
 
+
+    // Search model
+    $('.search-switch').on('click', function () {
+        $('.search-model').fadeIn(400);
+    });
+    
+    $('.search-close-switch').on('click', function () {
+        $('.search-model').fadeOut(400, function () {
+            $('#search-input').val('');
+        });
+    });
+
     /*------------------
 		Navigation
 	--------------------*/
@@ -133,20 +145,12 @@
         duration: 2000
     });
 
-    $('.table-controls ul li').on('click', function () {
-        var tsfilter = $(this).data('tsfilter');
-        $('.table-controls ul li').removeClass('active');
-        $(this).addClass('active');
-    
-        if (tsfilter == 'all') {
-            $('.class-timetable').removeClass('filtering');
-            $('.ts-meta').removeClass('show');
-            $('.ts-meta').addClass('show');
-        } else {
-            $('.class-timetable').addClass('filtering');
-            $('.ts-meta').removeClass('show');
-            $('.ts-meta[data-tsmeta="' + tsfilter + '"]').addClass('show');
-        }
+    $(document).ready(function () {
+        $('.barfiller').each(function () {
+            var percentage = $(this).data('percentage');
+            $(this).find('.fill').css('width', percentage + '%');
+            $(this).find('.tip').text(percentage + '%');
+        });
     });
 
 
@@ -165,5 +169,6 @@
             }
         });
     });
+
 
 })(jQuery);
