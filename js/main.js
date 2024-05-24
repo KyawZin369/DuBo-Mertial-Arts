@@ -29,14 +29,6 @@
         $(".offcanvas-menu-overlay").removeClass("active");
     });
 
-    //Masonary
-    $('.gallery').masonry({
-        itemSelector: '.gs-item',
-        columnWidth: '.grid-sizer',
-        gutter: 10
-    });
-
-
     // Search model
     $('.search-switch').on('click', function () {
         $('.search-model').fadeIn(400);
@@ -75,31 +67,6 @@
     });
 
     /*------------------
-        Team Slider
-    --------------------*/
-    $(".ts-slider").owlCarousel({
-        loop: true,
-        margin: 0,
-        items: 3,
-        dots: true,
-        dotsEach: 2,
-        smartSpeed: 1200,
-        autoHeight: false,
-        autoplay: true,
-        responsive: {
-            320: {
-                items: 1,
-            },
-            768: {
-                items: 2,
-            },
-            992: {
-                items: 3,
-            }
-        }
-    });
-
-    /*------------------
         Testimonial Slider
     --------------------*/
     $(".ts_slider").owlCarousel({
@@ -112,13 +79,6 @@
         smartSpeed: 1200,
         autoHeight: false,
         autoplay: true
-    });
-
-    /*------------------
-        Image Popup
-    --------------------*/
-    $('.image-popup').magnificPopup({
-        type: 'image'
     });
 
     /*------------------

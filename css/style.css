@@ -1394,10 +1394,6 @@ ol {
 	transition: all 0.3s;
 }
 
-/*---------------------
-  Class Timetable Section
------------------------*/
-
 .class-timetable-section {
 	background: #151515;
 }
@@ -1530,7 +1526,7 @@ ol {
 .class-timetable table thead tr th {
 	font-size: 14px;
 	color: #ffffff;
-	background: #5b68f8;
+	background: #f36100;
 	border-right: 1px solid #363636;
 	padding: 15px 0;
 	font-weight: 400;
@@ -1543,7 +1539,7 @@ ol {
 
 .class-timetable table tbody tr td.class-time {
 	font-size: 12px;
-	color: #ffffff;
+	color: #f36100;
 	background: #000000;
 	border: 1px solid #363636;
 }
@@ -1559,7 +1555,7 @@ ol {
 }
 
 .class-timetable table tbody tr td.hover-bg:hover {
-	background: #4d4e5e;
+	background: #f36100;
 }
 
 .class-timetable table tbody tr td.blank-td {
@@ -1761,6 +1757,7 @@ ol {
 .map iframe {
 	width: 100%;
 }
+
 
 /*---------------------
   Sign-UP and Login
