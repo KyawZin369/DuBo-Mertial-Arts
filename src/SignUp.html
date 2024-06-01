@@ -102,14 +102,14 @@
             <div class="section-title contact-title">
                 <h2>Sign Up</h2>
             </div>
-            <div? class="row">
+            <div class="row">
                 <div class="col-12 col-lg-6 offset-lg-3">
                     <div class="Sign-In">
-                        <form action="#">
-                            <input type="text" placeholder="Name">
-                            <input type="text" placeholder="Email">
-                            <input type="text" placeholder="Password">
-                            <input type="text" placeholder="Confirm Password">
+                        <form id="signup-form" action="#" method="post">
+                            <input type="text" id="name" name="name" placeholder="Name" required>
+                            <input type="email" id="email" name="email" placeholder="Email" required>
+                            <input type="password" id="password" name="password" placeholder="Password" required>
+                            <input type="password" id="confirm_password" name="confirm_password" placeholder="Confirm Password" required>
                             <button type="submit">Submit</button>
                             <div class="login-link">
                                 <p>Already have an account? <a href="logIn.html">Login</a></p>

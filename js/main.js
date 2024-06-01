@@ -130,5 +130,20 @@
         });
     });
 
+      /*------------------
+        input validation
+    --------------------*/
+
+    $(document).ready(function(){
+        $('#signup-form').submit(function(event){
+            var password = $('#password').val();
+            var confirm_password = $('#confirm_password').val();
+
+            if(password !== confirm_password) {
+                alert("Passwords do not match");
+                event.preventDefault();
+            }
+        });
+    });
 
 })(jQuery);
